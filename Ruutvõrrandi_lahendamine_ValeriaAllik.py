@@ -38,7 +38,7 @@ def otsus():
     if D > 0:
         x1 = round((-1*b+math.sqrt(D))/(2*a),2)
         x2 = round((-1*b+math.sqrt(D))/(2*a),2)
-        t = f'D = {D}\nx1 = {x1}\nx*x = {x2}'
+        t = f'D = {D}\nx1 = {x1}\nx2 = {x2}'
         graf=True
     elif D == 0:
         x=round((-1*b)/(2*a),2)
